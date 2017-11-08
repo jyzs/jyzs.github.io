@@ -321,6 +321,12 @@ h1 { margin: 0; }
     padding: 10px 0 10px 0;
     margin: 10px 0 32px 0;
   }
+  #about .col-md-6 h2
+  {
+    color: #66AF33;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 32px 0;
+  }
 #about .col-md-5 .col-md-6
   {
     padding: 4px;
