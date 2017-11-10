@@ -680,8 +680,11 @@ hr{
 }
 
 @media (max-width: 600px){
+  .Job_Connection{
+    font-size: 12px;
+  }
   .Job_Connection h4{
-    width: 2em;
+    font-size: 14px;
   }
   .Job_leader{
     display: none;
