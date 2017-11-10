@@ -689,4 +689,7 @@ hr{
   .Job_leader{
     display: none;
   }
+  .navbar-brand h3{
+    font-size: 22px;
+  }
 }
