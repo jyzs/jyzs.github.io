@@ -640,3 +640,50 @@ hr{
     padding-left: 5px;
     background-color: #bfbfbf;
 }
+.dl-horizontal dd {
+    text-align: left;
+}
+@media (min-width: 320px){
+.dl-horizontal dt {
+    float: left;
+    width: 70px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+
+@media (min-width: 768px){
+.dl-horizontal dt {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.p_level1{
+  line-height: 1.5; 
+  font-size: 14px; 
+  white-space: normal;
+  text-indent: 2em;
+}
+.p_level2{
+  line-height: 1.5; 
+  font-size: 14px; 
+  white-space: normal;
+  text-indent: 4em;
+}
+}
+
+@media (max-width: 600px){
+  .Job_Connection h4{
+    width: 2em;
+  }
+  .Job_leader{
+    display: none;
+  }
+}
